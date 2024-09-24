@@ -1,21 +1,19 @@
 <template>
     <div>
-        <header>
-            <nav>
-                <NuxtLink to="/">Home</NuxtLink>
-                <NuxtLink to="/about">About</NuxtLink>
-                <NuxtLink to="/skills">Skills</NuxtLink>
-                <NuxtLink to="/projects">Projects</NuxtLink>
-                <NuxtLink to="/contact">Contact</NuxtLink>
-            </nav>
-        </header>
+        <Head>
+            <Title>Home - Nuxt 3 Demo</Title>
+            <Meta name="description" content="This is Nuxt 3 app demo"/>
+            <Meta property = "og:title" content="OG title" />
+            <Link rel="styleSheet" href="/style.css"/>
+        </Head>
+        this is home page
 
-        <main>
-            <Nuxt />
-        </main>
-
-        <Footer>
-            <p>&copy; 2024 My Portfolio</p>
-        </Footer>
     </div>
+
 </template>
+
+<script setup>
+
+
+        
+</script>
