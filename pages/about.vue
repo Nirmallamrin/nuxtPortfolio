@@ -1,28 +1,30 @@
 <template>
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-        <!-- Left Section (Photo) -->
-        <div class="w-40 h-40 md:w-60 md:h-60 mb-8 md:mb-0">
-          <img 
-            src="/IMG02.jpeg"  
-            alt="Nirmal's Photo" 
-            class="rounded-full shadow-lg object-cover w-full h-full"
-          />
-        </div>
-  
-        <!-- Right Section (About Me Paragraph) -->
-        <div class="text-left max-w-md">
-          <h1 class="text-3xl font-bold text-gray-900 mb-4">About Me</h1>
-          <p class="text-lg text-gray-700">
-            Hello, I'm Nirmal, a passionate Software Developer with experience in building full-stack applications.
-            I enjoy working with modern web technologies, particularly in the MERN stack, and I am always eager to learn
-            and contribute to impactful projects.
-          </p>
-        </div>
+  <div class="min-h-screen bg-gray-950 flex items-center justify-center px-4">
+    <div class="container mx-auto flex flex-col itemsmd:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 text-center md:text-left">
+      
+      <!-- Left Section (Photo) -->
+      <div class="w-40 h-40 md:w-60 md:h-60">
+        <img 
+          src="/IMG02.jpeg" 
+          alt="Nirmal's Photo" 
+          class="rounded-full shadow-lg object-cover w-full h-full border-4 border-white"
+        />
       </div>
+
+      <!-- Right Section (About Me Paragraph) -->
+      <div class="max-w-md">
+        <h1 class="text-4xl font-bold text-white mb-4">About Me</h1>
+        <p class="text-lg text-gray-300 leading-relaxed">
+          Hello, I'm Nirmal, a dedicated Software Developer with experience in building full-stack applications. 
+          I specialize in creating efficient and scalable solutions using the MERN stack. Always eager to learn and 
+          contribute to meaningful projects, I am passionate about delivering high-quality software and embracing modern 
+          web technologies.
+        </p>
+      </div>
+      
     </div>
-  </template>
-  
-  <script setup>
-  </script>
-  
+  </div>
+</template>
+
+<script setup>
+</script>

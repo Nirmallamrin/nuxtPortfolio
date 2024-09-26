@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-100 p-8">
-      <h1 class="font-bold italic text-gray-900 text-5xl flex justify-center mb-12">My Projects</h1>
+    <div class="bg-gray-950 p-8">
+      <h1 class="font-bold italic text-white text-5xl flex justify-center mb-12">My Projects</h1>
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div v-for="(project, index) in projects" :key="index" class="bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
