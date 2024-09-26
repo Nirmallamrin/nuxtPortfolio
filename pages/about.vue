@@ -4,7 +4,7 @@
         <!-- Left Section (Photo) -->
         <div class="w-40 h-40 md:w-60 md:h-60 mb-8 md:mb-0">
           <img 
-            src="/_nuxt/public/IMG02.jpeg"  
+            src="/IMG02.jpeg"  
             alt="Nirmal's Photo" 
             class="rounded-full shadow-lg object-cover w-full h-full"
           />

@@ -28,7 +28,7 @@
       <!-- Right Section (Image) -->
       <div class="w-80 h-80 md:w-80 md:h-80">
         <img 
-          src="/_nuxt/assets/IMG03.jpeg" 
+          src="/_nuxt/public/IMG03.jpeg" 
           alt="Nirmal's Image" 
           class="object-cover w-full h-full rounded-full shadow-lg"
         />

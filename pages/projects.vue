@@ -19,11 +19,11 @@
   
   <script setup>
   import { ref } from 'vue';
-  import ecommerce from '@/assets/IMG39.jpg';
-  import news from '@/assets/IMG40.jpg';
-  import weather from '@/assets/IMG41.png';
-  import todo from '@/assets/IMG42.png';
-  import expense from '@/assets/IMG43.png';
+  import ecommerce from '@/public/IMG39.jpg';
+  import news from '@/public/IMG40.jpg';
+  import weather from '@/public/IMG41.png';
+  import todo from '@/public/IMG42.png';
+  import expense from '@/public/IMG43.png';
   
   // Project data
   const projects = ref([

@@ -13,7 +13,7 @@
 
       <!-- Resume Image -->
       <div class="resume-image flex justify-center ">
-        <img src="/_nuxt/assets/IMG38.png" alt="Resume" class="max-w-full h-auto shadow-lg rounded-lg" />
+        <img src="/IMG38.png" alt="Resume" class="max-w-full h-auto shadow-lg rounded-lg" />
       </div>
       
      
