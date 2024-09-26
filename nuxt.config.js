@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css' , '@fortawesome/fontawesome-free/css/all.min.css'],
-  
+
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -10,5 +10,5 @@ export default defineNuxtConfig({
     },
   },
 
-
+  compatibilityDate: '2024-09-26',
 })
